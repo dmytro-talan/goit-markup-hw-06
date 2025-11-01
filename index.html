@@ -28,12 +28,25 @@
         </ul>
     </nav>
     
-    <address class="address">
-        <ul class="address-list">
-            <li class="address-item"><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="address-item"><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+    <address class="contacts">
+        <ul class="contacts-list">
+            <li class="contacts-item"><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-item"><a class="contacts" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
     </address>
+    <button class="burger-btn" type="button">
+        <svg class="burger-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+    </button>
+    </div>
+    <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+            <button class="mobile-menu-close">Close</button>
+            <nav class="mobile-menu-nav">Navigation</nav>
+            <address class="">Address</address>
+            <div> Soc Link</div>
+        </div>
     </div>
 </header>
 
@@ -47,9 +60,9 @@
     </section>
     
  
-<section class="banefits">
+<section class="section banefits">
     <div class="container banefits-block">
-        <h2 class="hidden-title">Benefits</h2>
+        <h2 class="hidden-title hidden">Benefits</h2>
         <ul class="benefits-card">
             <li class="benefits-content">
                 <div class="icons-banefit">
@@ -103,18 +116,18 @@
     </div>
 </section>
 
-    <section class="hero-page">
+    <section class="hero-page section">
         <div class="container hero-block">
             <h2 class="title-hero">Our Team</h2>
-            <ul class="hero">
+            <ul class="hero-list">
                 <li class="hero-card">
-                    <img src="./images/img.jpg" alt="Mark Guerrero" width="264">
+                    <img srcset="./images/team/team-1-min.jpg 1x, ./images/team/team-1@2x-min.jpg 2x " src="./images/team/team-1-min.jpg" alt="Mark Guerrero" width="264">
                     <div class="hero-info">
                         <h3 class="team-s-title">Mark Guerrero</h3>
                         <p class="our-team-p">Product Designer</p>
                         <ul class="socials-icons">
                         <li class="social-item">
-                            <a href="instagram.com" class="social-link">
+                            <a href="instagram.com" class="social-link team-social-link">
                                 <svg class="icons" width="16" height="16">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
@@ -122,7 +135,7 @@
                             
                         </li>
                         <li class="social-item">
-                            <a href="x.com" class="social-link">
+                            <a href="x.com" class="social-link team-social-link">
                                 <svg class="icons" width="16" height="16">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg>
@@ -130,7 +143,7 @@
                             
                         </li>
                         <li class="social-item">
-                            <a href="fecebook.com" class="social-link">
+                            <a href="fecebook.com" class="social-link team-social-link">
                                 <svg class="icons" width="16" height="16">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
@@ -138,7 +151,7 @@
                             
                         </li>
                         <li class="social-item">
-                            <a href="linkedin.com" class="social-link">
+                            <a href="linkedin.com" class="social-link team-social-link">
                                 <svg class="icons" width="16" height="16">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg>
@@ -149,13 +162,14 @@
                 </li>
             
                 <li class="hero-card">
-                    <img src="./images/img-2.jpg" alt="Tom Ford" width="264">
+                <img srcset="./images/team/team-2-min.jpg 1x, ./images/team/team-2@2x-min.jpg 2x " src="./images/team/team-2-min.jpg"
+                    alt="Mark Guerrero" width="264">
                     <div class="hero-info">
                         <h3 class="team-s-title">Tom Ford</h3>
                         <p class="our-team-p">Frontend Developer</p>
                        <ul class="socials-icons">
                         <li class="social-item">
-                            <a href="instagram.com" class="social-link">
+                            <a href="instagram.com" class="social-link team-social-link">
                                 <svg class="icons" width="16" height="16">
                                 <use href="./images/icons.svg#icon-instagram"></use>
                             </svg>
@@ -163,7 +177,7 @@
                             
                         </li>
                         <li class="social-item">
-                            <a href="x.com" class="social-link">
+                            <a href="x.com" class="social-link team-social-link">
                                 <svg class="icons" width="16" height="16">
                                 <use href="./images/icons.svg#icon-twitter"></use>
                             </svg>
@@ -171,7 +185,7 @@
                             
                         </li>
                         <li class="social-item">
-                            <a href="fecebook.com" class="social-link">
+                            <a href="fecebook.com" class="social-link team-social-link">
                                 <svg class="icons" width="16" height="16">
                                 <use href="./images/icons.svg#icon-facebook"></use>
                             </svg>
@@ -179,7 +193,7 @@
                             
                         </li>
                         <li class="social-item">
-                            <a href="linkedin.com" class="social-link">
+                            <a href="linkedin.com" class="social-link team-social-link">
                                 <svg class="icons" width="16" height="16">
                                 <use href="./images/icons.svg#icon-linkedin"></use>
                             </svg>
@@ -190,13 +204,14 @@
                 </li>
             
                 <li class="hero-card">
-                    <img src="./images/img-3.jpg" alt="Camila Garcia" width="264">
+                <img srcset="./images/team/team-3-min.jpg 1x, ./images/team/team-3@2x-min.jpg 2x " src="./images/team/team-3-min.jpg"
+                    alt="Mark Guerrero" width="264">
                     <div class="hero-info">
                         <h3 class="team-s-title">Camila Garcia</h3>
                         <p class="our-team-p">Marketing</p>
                         <ul class="socials-icons">
                             <li class="social-item">
-                                <a href="instagram.com" class="social-link">
+                                <a href="instagram.com" class="social-link team-social-link">
                                     <svg class="icons" width="16" height="16">
                                         <use href="./images/icons.svg#icon-instagram"></use>
                                     </svg>
@@ -204,7 +219,7 @@
                                 
                             </li>
                             <li class="social-item">
-                                <a href="x.com" class="social-link">
+                                <a href="x.com" class="social-link team-social-link">
                                     <svg class="icons" width="16" height="16">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
@@ -212,7 +227,7 @@
                                 
                             </li>
                             <li class="social-item">
-                                <a href="fecebook.com" class="social-link">
+                                <a href="fecebook.com" class="social-link team-social-link">
                                     <svg class="icons" width="16" height="16">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
@@ -220,7 +235,7 @@
                                 
                             </li>
                             <li class="social-item">
-                                <a href="linkedin.com" class="social-link">
+                                <a href="linkedin.com" class="social-link team-social-link">
                                     <svg class="icons" width="16" height="16">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
@@ -232,13 +247,14 @@
                 </li>
             
                 <li class="hero-card">
-                    <img src="./images/img-4.jpg" alt="Daniel Wilson" width="264">
+                    <img srcset="./images/team/team-4-min.jpg 1x, ./images/team/team-4@2x-min.jpg 2x " src="./images/team/team-4-min.jpg"
+                        alt="Mark Guerrero" width="264">
                     <div class="hero-info">
                         <h3 class="team-s-title">Daniel Wilson</h3>
                         <p class="our-team-p">UI Designer</p>
                         <ul class="socials-icons">
                             <li class="social-item">
-                                <a href="instagram.com" class="social-link">
+                                <a href="instagram.com" class="social-link team-social-link">
                                     <svg class="icons" width="16" height="16">
                                     <use href="./images/icons.svg#icon-instagram"></use>
                                 </svg>
@@ -246,7 +262,7 @@
                                 
                             </li>
                             <li class="social-item">
-                                <a href="x.com" class="social-link">
+                                <a href="x.com" class="social-link team-social-link">
                                     <svg class="icons" width="16" height="16">
                                     <use href="./images/icons.svg#icon-twitter"></use>
                                 </svg>
@@ -254,7 +270,7 @@
                                 
                             </li>
                             <li class="social-item">
-                                <a href="fecebook.com" class="social-link">
+                                <a href="fecebook.com" class="social-link team-social-link">
                                     <svg class="icons" width="16" height="16">
                                     <use href="./images/icons.svg#icon-facebook"></use>
                                 </svg>
@@ -262,7 +278,7 @@
                                 
                             </li>
                             <li class="social-item">
-                                <a href="linkedin.com" class="social-link">
+                                <a href="linkedin.com" class="social-link team-social-link">
                                     <svg class="icons" width="16" height="16">
                                     <use href="./images/icons.svg#icon-linkedin"></use>
                                 </svg>
@@ -275,14 +291,27 @@
         </div>
     </section>
 
-<section class="portfolio">
+<section class="portfolio section">
     <div class="container portfolio-container">
         <h2 class="portfolio-title">Our Portfolio</h2>
         <ul class="our-portfolio">
             
         <li class="portfolio-card">
             <div class="portfolio-thumb">
-                <img src="./images/img-5.jpg" alt="photo Banking App" width="360" />
+
+                <picture>
+                    <source media="(min-width: 1158px)"
+                        srcset="./images/portfolio/portfolio-lap-1-min.jpg , ./images/portfolio/portfolio-lap-1@2x-min.jpg 2x" />
+                    <source media="(min-width: 768px)"
+                        srcset="./images/portfolio/portfolio-tab-1-min.jpg , ./images/portfolio/portfolio-tab-1@2x-min.jpg 2x" />
+                    <source media="(max-width: 767px)"
+                        srcset="./images/portfolio/portfolio-mob-1-min.jpg , ./images/portfolio/portfolio-mob-1@2x-min.jpg 2x" />
+
+                        <img src="./images/portfolio/portfolio-lap-1-min.jpg" alt="photo Banking App" width="360" />
+
+                </picture>
+
+                
                     <p class="overlay-p">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App
@@ -297,7 +326,19 @@
 
             <li class="portfolio-card">
                 <div class="portfolio-thumb">
-                <img src="./images/img-6.jpg" alt="photo Cashless Payment" width="360" />
+                    <picture>
+
+                        <source media="(min-width: 1158px)"
+                            srcset="./images/portfolio/portfolio-lap-2-min.jpg , ./images/portfolio/portfolio-lap-2@2x-min.jpg 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="./images/portfolio/portfolio-tab-2-min.jpg , ./images/portfolio/portfolio-tab-2@2x-min.jpg 2x" />
+                        <source media="(max-width: 767px)"
+                            srcset="./images/portfolio/portfolio-mob-2-min.jpg , ./images/portfolio/portfolio-mob-2@2x-min.jpg 2x" />
+                    
+                        <img src="./images/portfolio/portfolio-lap-2-min.jpg" alt="photo Cashless Payment" width="360" />
+                    
+                    </picture>
+                
                     <p class="overlay-p">
                         14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App ·
                         Cloud Storage App
@@ -312,7 +353,19 @@
 
             <li class="portfolio-card">
                 <div class="portfolio-thumb">
-                <img src="./images/img-7.jpg" alt="photo Meditation App" width="360" />
+                    <picture>
+
+                        <source media="(min-width: 1158px)"
+                            srcset="./images/portfolio/portfolio-lap-3-min.jpg , ./images/portfolio/portfolio-lap-3@2x-min.jpg 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="./images/portfolio/portfolio-tab-3-min.jpg , ./images/portfolio/portfolio-tab-3@2x-min.jpg 2x" />
+                        <source media="(max-width: 767px)"
+                            srcset="./images/portfolio/portfolio-mob-3-min.jpg , ./images/portfolio/portfolio-mob-3@2x-min.jpg 2x" />
+                    
+                        <img src="./images/portfolio/portfolio-lap-1-min.jpg" alt="photo Meditation App" width="360" />
+                    
+                    </picture>
+       
                 <p class="overlay-p">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App ·
@@ -327,7 +380,21 @@
 
             <li class="portfolio-card">
                 <div class="portfolio-thumb">
-                <img src="./images/img-8.jpg" alt="photo Taxi Service" width="360" />
+
+                    <picture>
+                    
+                        <source media="(min-width: 1158px)"
+                            srcset="./images/portfolio/portfolio-lap-4-min.jpg , ./images/portfolio/portfolio-lap-4@2x-min.jpg 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="./images/portfolio/portfolio-tab-4-min.jpg , ./images/portfolio/portfolio-tab-4@2x-min.jpg 2x" />
+                        <source media="(max-width: 767px)"
+                            srcset="./images/portfolio/portfolio-mob-4-min.jpg , ./images/portfolio/portfolio-mob-4@2x-min.jpg 2x" />
+                    
+                        <img src="./images/portfolio/portfolio-lap-4-min.jpg" alt="photo Taxi Service" width="360" />
+                    
+                    </picture>
+                    
+               
                 <p class="overlay-p">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App ·
@@ -342,7 +409,20 @@
 
             <li class="portfolio-card">
                 <div class="portfolio-thumb">
-                <img src="./images/img-9-1jpg.jpg" alt="photo Screen Illustrations" width="360" />
+
+                    <picture>
+                    
+                        <source media="(min-width: 1158px)"
+                            srcset="./images/portfolio/portfolio-lap-5-min.jpg , ./images/portfolio/portfolio-lap-5@2x-min.jpg 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="./images/portfolio/portfolio-tab-5-min.jpg , ./images/portfolio/portfolio-tab-5@2x-min.jpg 2x" />
+                        <source media="(max-width: 767px)"
+                            srcset="./images/portfolio/portfolio-mob-5-min.jpg , ./images/portfolio/portfolio-mob-5@2x-min.jpg 2x" />
+                    
+                        <img src="./images/portfolio/portfolio-lap-5-min.jpg" alt="photo Screen Illustrations" width="360" />
+                    
+                    </picture>
+
                 <p class="overlay-p">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App ·
@@ -357,7 +437,20 @@
 
             <li class="portfolio-card">
                 <div class="portfolio-thumb">
-                <img src="./images/img-9.jpg" alt="photo Online Courses" width="360" />
+
+                    <picture>
+                    
+                        <source media="(min-width: 1158px)"
+                            srcset="./images/portfolio/portfolio-lap-6-min.jpg , ./images/portfolio/portfolio-lap-6@2x-min.jpg 2x" />
+                        <source media="(min-width: 768px)"
+                            srcset="./images/portfolio/portfolio-tab-6-min.jpg , ./images/portfolio/portfolio-tab-6@2x-min.jpg 2x" />
+                        <source media="(max-width: 767px)"
+                            srcset="./images/portfolio/portfolio-mob-6-min.jpg , ./images/portfolio/portfolio-mob-6@2x-min.jpg 2x" />
+                    
+                        <img src="./images/portfolio/portfolio-lap-6-min.jpg" alt="photo Online Courses" width="360" />
+                    
+                    </picture>
+
                 <p class="overlay-p">
                     14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
                     App ·
@@ -376,7 +469,7 @@
 </main>
 
 
-<footer class="footer">
+<footer class="footer section">
    <div class="container foot">
     <div class="footer-logo-content">
     <a href="./index.html" class="logo footer-logo">Web<span class="logo-part">Studio</span></a>
@@ -391,32 +484,32 @@
         </p>
         <ul class="socials-footer-icons">
             <li class="social-item">
-                <a href="instagram.com" class="social-footer-link">
-                    <svg class="footer-icons" width="24" height="24">
+                <a href="instagram.com" class="social-link social-footer-link">
+                    <svg class="icons footer-icons" width="24" height="24">
                         <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                 </a>
     
             </li>
             <li class="social-item">
-                <a href="x.com" class="social-footer-link">
-                    <svg class="footer-icons" width="24" height="24">
+                <a href="x.com" class="social-link social-footer-link">
+                    <svg class="icons footer-icons" width="24" height="24">
                         <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                 </a>
     
             </li>
             <li class="social-item">
-                <a href="fecebook.com" class="social-footer-link">
-                    <svg class="footer-icons" width="24" height="24">
+                <a href="fecebook.com" class="social-link social-footer-link">
+                    <svg class="icons footer-icons" width="24" height="24">
                         <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                 </a>
     
             </li>
             <li class="social-item">
-                <a href="linkedin.com" class="social-footer-link">
-                    <svg class="footer-icons" width="24" height="24">
+                <a href="linkedin.com" class="social-link social-footer-link">
+                    <svg class="icons footer-icons" width="24" height="24">
                         <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                 </a>
@@ -442,7 +535,7 @@
 </footer>
 
 <!-- Modal Window -->
- <div class="backdrop is-open">
+ <div class="backdrop">
     <div class="modal">
         <button class="modal_button" type="button">
             <svg class="modal_button_icon" width="8" height="8">
@@ -450,9 +543,9 @@
             </svg> 
         </button>
 
-        <p class="modal_caption">Leave your contacts and we will call you back</p>
+        <p class="modal-caption">Leave your contacts and we will call you back</p>
 
-        <form class="modal_form" name="review">
+        <form class="modal-form" name="review">
             <div class="modal-form-field">
                 <label class="modal-form-label" for="user-name">Name</label>
                 <div class="modal-form-wrapper">
@@ -483,7 +576,7 @@
                 </div>
             </div>
 
-            <div class="modal-form-field-textarea">
+            <div class="modal-form-field modal-form-field-textarea">
                     <label class="modal-form-label" for="user-comment">Comment</label>
                     <textarea class="modal-form-comments" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
             </div>
@@ -499,14 +592,82 @@
                   I accept the terms and conditions of the <a class="accent-text" href="./index.html" target="_blank">Privacy Policy</a>
                 </label>
             </div>
-            
-
-
 
             <button class="btn btn-accent" type="submit">Send</button>
         </form>
     </div>
  </div>
+
+ <!-- Mobile Menu -->
+
+<div class="mobile-menu">
+    <div class="container">
+        <button class="mobile-menu-bnt" type="button">
+            <svg class="modal-btn-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-cros"></use>
+            </svg>
+        </button>
+        <div class="mobile-menu-nav">
+            <ul class="mobile-menu-nav-list">
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link" href="#">Studio</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link" href="#">Portfolio</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link" href="#">Contacts</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu-address">
+            <ul class="mobile-menu-contacts">
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link" href="tel:110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <ul class="socials-icons mobile-menu-socials">
+            <li class="social-item">
+                <a href="instagram.com" class="social-link team-social-link">
+                    <svg class="icons mobile-menu-icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+        
+            </li>
+            <li class="social-item">
+                <a href="x.com" class="social-link team-social-link">
+                    <svg class="icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+        
+            </li>
+            <li class="social-item">
+                <a href="fecebook.com" class="social-link team-social-link">
+                    <svg class="icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                </a>
+        
+            </li>
+            <li class="social-item">
+                <a href="linkedin.com" class="social-link team-social-link">
+                    <svg class="icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 </body>
 </html>
